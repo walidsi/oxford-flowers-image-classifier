@@ -65,7 +65,7 @@ if __name__ == "__main__":
         custom_objects={'KerasLayer': hub.KerasLayer},
         compile=False)
 
-    ps, classes = predict(args.file_path, model)
+    ps, classes = predict(args.file_path, model, args.top_k)
 
     with open(args.category_names, 'r') as f:
         class_names = json.load(f)
