@@ -1,3 +1,6 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 import tensorflow as tf
 import tensorflow_hub as hub
 import matplotlib.pyplot as plt
@@ -5,11 +8,6 @@ import numpy as np
 from PIL import Image
 import argparse
 import json
-
-import os
-
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
 
 # TODO: Create the process_image function
 def process_image(image: np.ndarray) -> np.ndarray:
