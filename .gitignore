@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+*.zip
+__pycache__/
+Project_Image_Classifier_Project.html
