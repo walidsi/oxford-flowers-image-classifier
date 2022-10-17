@@ -27,7 +27,7 @@ Code is provided in the `Project_Image_Classifier_Project.ipynb` notebook file.
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `finding_identify_customer_segmentsdonors/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook Project_Image_Classifier_Project.ipynb
