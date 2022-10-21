@@ -7,8 +7,17 @@
 ![Licence](https://img.shields.io/github/license/walidsi/oxford-flowers-image-classifier)
 ![Issues](https://img.shields.io/github/issues/walidsi/oxford-flowers-image-classifier)
 
-## Goal
-A Tensorlfow deep learning project to recognize different species of flowers.
+### Goal
+The goal of the project is to train an image classifier to recognize different species of flowers.
+
+### Process
+- Load the oxford flowers image dataset and create a pipeline.
+- Build and Train an image classifier on this dataset using transfer learning with mobilenet_v2 as the base pre-trained network from TensorFlow Hub.
+- Save and use the trained model to perform inference on unseen flower images.
+
+### Results
+- After training the model for 5 epochs, we achieved a training accuracy of 98.63% and an accuracy of 74.695% on the testing set.
+- The model was saved and later used in a command line script and a Flask web application to predict the species of flowers from random images. The web app can be found at https://oxford-flowers.azurewebsites.net
 
 ### Install
 
